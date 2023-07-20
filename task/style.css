@@ -1,0 +1,829 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+ .carousel-item.active {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 18px !important;
+}
+.carousel-item-next, .carousel-item-prev {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 18px !important;
+}
+/* Header Code */
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.image1{
+    display: none;
+}
+.navbar .navlinks{   
+     display: flex;
+    align-items: center;
+}
+.navbar .navlinks a{
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+}
+.navbar img{
+    margin-top: 6px;
+    padding-bottom: 9px;
+    margin-left: 12px;
+}
+.Navbutton{
+    background: #F29E38;
+    color: #FFFFFF;
+    Font-Weight: 500;
+    Font-Size: 14px;
+    line-height: 20.08px;
+    width: 123px;
+    border-radius: 6px;
+    padding: 8px;
+    border: none;
+}
+/* firstsection */
+.firstsection{
+    width: 100%;
+    margin: auto;
+    padding-bottom: 22px;
+    padding-top: 34px;
+    background-image: url(/Images/firstsectionbg.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 814px;
+    display: flex;
+    align-items: center; 
+}
+.getstarted{
+    background-color: transparent !important;
+    color: #F29E38 !important;
+    border: 1px solid #F29E38 !important;
+    width: 154px;
+    height: 48px;
+}
+.firstsectionleft{
+    width: 36%;
+    margin: auto;
+}
+.firstsectionleft h1{
+    width: 72%;
+}
+.firstsectionright{
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* qliquedescriptionsection */
+.qliquedescriptionsection{
+    width: 100%;
+    margin: auto;
+    padding-bottom: 22px;
+    padding-top: 34px;
+    background-image: url(/Images/backgroundimage.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 690px;
+}
+.qliquedescriptioncontainer{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.qliquedescriptioncontainerleft{
+    padding-top: 10%;
+    padding-left: 14%;
+}
+.qliquedescriptioncontainerleft img{
+    width: 80%;
+}
+.qliquedescriptioncontainerright{
+    width: 40%;
+    margin-left: 6%;
+    margin-right: 4%;
+}
+.Learnmore{
+    background: #F29E38 !important;
+    color: #FFFFFF !important;
+    width: 154px;
+    height: 48px;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+}
+.qliquedescriptionheading{
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 64px;
+    color: #18191F;
+}
+.qliquedescription{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #18191F;
+}
+/* Whatmakesusuniquesection */
+.Whatmakesusuniquesection{
+    width: 100%;
+    padding-bottom: 22px;
+    padding-top: 34px;
+    background: #E2EAFE;
+}
+.Whatmakesusuniquecontainer{
+    width: 70%;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-bottom: 30px;
+}
+.card1{
+    width: 26%;
+    margin-top: 28px;
+    height: 330px;
+    border-radius: 7px;
+    background: white;
+    padding-left: 12px;
+    padding-top: 12px;
+}
+.cardoneheading{
+    padding-top: 12px;
+    width: 64%;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 29px;
+}
+.cardonedescription{
+    width: 88%;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+/* Workingmapsection */
+.Workingmapsection{
+    width: 100%;
+    padding-bottom: 22px;
+    padding-top: 34px;
+}
+.Workingmapcontainer{
+    width: 62%;
+    margin: auto;
+}
+.Workingmapheading{
+    padding-bottom: 50px;
+}
+.Workingmapheading h1{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 72px;
+    color: #000000;
+}
+.Workingmapcontainerleft{
+    width: 90%;
+    margin: auto;
+    padding-right: 8%;
+}
+.Workingmapcontainerleft img{
+    width: 100%;
+    padding-bottom: 56px;
+}
+.Workingmapcontainertext{
+    text-align: right;
+    padding-bottom: 24px;
+}
+.Workingmapcontainertext h5{
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 40px;
+    color: #292A2B;
+}
+.Workingmapcontainertext p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #767676;
+}
+.Workingmapcontainercenter{
+    padding-bottom: 44px;
+}
+.Workingmapcontainerright{
+    width: 90%;
+    margin: auto;
+    padding-left: 8%; 
+}
+.Workingmapcontainerrighttext{
+    text-align: left;
+}
+.Workingmapcontainerrighttext h5{
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 40px;
+    color: #292A2B;
+}
+.Workingmapcontainerrighttext p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #767676;
+}
+.Workingmapcontainerright img{
+    width: 90%;
+}
+/* testimonialsection */
+.testimonialsection{
+    width: 100%;
+    padding-bottom: 22px;
+    padding-top: 40px;
+    background: #E2EAFE;
+    background-image: url(/Images/quotes.svg);
+    background-size: cover;
+     background-repeat: no-repeat;
+}
+.testimonialsectioncontainer{
+    width: 90%;
+    margin: auto;
+}
+.testimonialsectionheading{
+    padding-bottom: 50px;
+}
+.testimonialsectionheading h1{
+   padding-left: 22px;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 64px;
+}
+
+/* Logoscloudsection */
+.Logoscloudsection{
+    width: 100%;
+    padding-bottom: 22px;
+    padding-top: 34px;
+}
+.Logoscloudcontainer{
+    width: 90%;
+    margin: auto;
+    height: 491px;
+    display: flex;
+    border-radius: 20px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 22px;
+}
+.Logoscloudtext{
+    width: 45%;
+    margin: auto;
+}
+.Logoscloudhead{
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 64px;
+    width: 62%;  
+}
+.Logosclouddescription{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    width: 65%;
+    padding-top: 15px;
+}
+
+/* CTAcontainer */
+.CTAcontainersection{
+    width: 100%;
+    padding-bottom: 22px;
+    padding-top: 22px;
+}
+.CTAcontainer{
+    width: 90%;
+    margin: auto;
+    background: #FFE3C1;
+    height: 491px;
+    display: flex;
+    border-radius: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+.CTAcontainertext{
+    width: 38%;
+    margin: auto;
+}
+.CTAcontainerimage{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.phonephoto1{
+    position: relative;
+    bottom: 38px;
+}
+.phonephoto2{
+    position: relative;
+    top: 37px;
+}
+.CTAcontainerhead{
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 64px;
+}
+.CTAcontainerdescription{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+}
+.Gettheapptext{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+}
+.downloadoptionicons{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+/* footer */
+.footer{
+    width: 100%;
+    height: 313px;
+    background: linear-gradient(180deg, #7198F8 0%, #4063B8 100%);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.footerlogo{
+    width: 15%;
+}
+.footertext{
+color: #FFFFFF;
+}
+.HelpHeading{
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+}
+.Helptext{
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px; 
+}
+.exploresection{
+    padding-top: 34px;
+}
+/* copyrightsection */
+.copyrightsection{
+    width: 100%;
+    background: #4366BC;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.copyrighttextsection{
+    width: 74%;
+    margin: auto;
+}
+.copyrighttext{
+    padding-left: 37px;
+    color: #D9DBE1;
+    padding-top: 18px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.socialmediaicons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 12%;
+    margin: auto;
+}
+@media screen and (max-width: 1100px) {
+    .firstsection{
+        height: 545px;
+        padding-bottom: 0px;
+    }
+    .firstsectionleft{
+        width: 55%;
+        margin-left: 22px;
+    }
+    .qliquedescriptionsection{
+        background-size: cover;
+        height: 580px;
+        width: 100%;
+    }
+    .qliquedescriptioncontainer{
+        width: 100%;
+        margin: auto;
+        display: flex;
+        /* justify-content: revert; */
+        align-items: center;
+    }
+    .qliquedescriptioncontainerleft{
+        padding-top: 10%;
+    padding-left: 14%;
+    }
+    .qliquedescriptioncontainerright{
+        width: 40%;
+        margin-left: 6%;
+    }
+    .Whatmakesusuniquecontainer{
+        width: 100%;
+    }
+    .Logoscloudcontainer{
+        width: 96%;
+    }
+    .Logoscloudhead{
+        font-size: 34px;
+    line-height: 42px;
+    width: 100%;
+    }
+    .Logosclouddescription{
+        font-size: 18px;
+    line-height: 32px;
+    width: 100%;
+    }
+    .Logoscloudimage{
+        width: 54%;
+    }
+    .CTAcontainertext{
+        width: 38%;
+        margin: auto;
+        margin-left: 26px;
+    }
+    .CTAcontainerhead{
+        font-weight: 800;
+    font-size: 35px;
+    line-height: 47px;
+    }
+    .CTAcontainerdescription{
+        font-size: 17px;
+        line-height: 32px;
+    }
+}
+@media screen and (min-width: 500px) and (max-width: 914px) {
+   .firstsectionleft h1{
+    width: 100%;
+    font-size: 48px;
+    line-height: 65px;
+   } 
+   .firstsection{
+    margin-left: 2%;
+   }
+   .firstsectionleft{
+    width: 100%;
+    margin: auto;
+   }
+   .firstsectionleft p{
+    font-size: 24px;
+    line-height: 32px;
+   }
+   .firstsectionright{
+    width: 100%;
+   }
+   .testimonialsection{
+    background-size: contain;
+    margin-left: 6px;
+   }
+   .qliquedescriptionsection{
+    width: 100%;
+   }
+   .qliquedescriptioncontainerleft{
+    padding-top: 8%;
+    padding-left: 8%;
+   }
+   .qliquedescriptioncontainerleft img{
+    width: 100%;
+   }
+   .qliquedescriptioncontainerright{
+    width: 72%;
+   }
+   .qliquedescriptionheading{
+    font-size: 44px;
+    line-height: 64px;
+   }
+   .qliquedescription{
+    font-size: 20px;
+    line-height: 32px;
+   }
+   .qliquedescriptioncontainer{
+    width: 100%;
+   }
+   .card1{
+    width: 30%;
+    height: 334px;
+   }
+   .Whatmakesusuniquecontainer{
+    width: 100%;
+   }
+   .testimonialsectioncontainer{
+    width: 100%;
+    margin: auto;
+   }
+   .Logoscloudsection{
+    width: 100%;
+    padding-bottom: 22px;
+    padding-top: 34px;
+   }
+   .Logoscloudcontainer{
+    width: 94%;
+    height: 491px;
+   }
+   .Logoscloudtext{
+    width: 100%;
+    margin: auto;
+   }
+   .Logosclouddescription{
+    width: 90%;
+   }
+   .Logoscloudimage{
+    width: 81%;
+   }
+   .Logoscloudimage img{
+    width: 100%;
+   }
+   .CTAcontainersection{
+    width: 100%;
+    padding-bottom: 22px;
+    padding-top: 22px;
+   }
+   .CTAcontainertext{
+    margin-left: 20px;
+    margin-top: 22px;
+   }
+   .CTAcontainerhead{
+    font-size: 27px;
+    line-height: 33px;
+   }
+   .CTAcontainerdescription{
+    margin-bottom: 0px;
+    font-size: 16px;
+    line-height: 32px;
+   }
+   .Gettheapptext{
+    font-size: 18px;
+    line-height: 28px;
+   }
+   .downloadoptionicons{
+    margin: auto;
+    margin-bottom: 22px;
+   }
+   .CTAcontainerimage{
+    margin: auto;
+    width: 80%;
+    justify-content: center;
+   }
+   .CTAcontainerimage img{
+    width: 46%;
+   }
+   .phonephoto1{
+    bottom: 21px;
+   }
+   .phonephoto2{
+    top: 21px;
+   }
+   .CTAcontainer{
+    height: 332px;
+   }
+   .footer{
+    padding-top: 40px;
+   }
+   footer{
+    margin-left: 6px;
+   }
+   .copyrighttextsection{
+    width: 78%;
+    margin: 0%;
+   }
+   .socialmediaicons{
+    width: 20%;
+   }
+}
+
+@media screen and (min-width:150px) and (max-width: 500px) {
+    *{
+        overflow-x: hidden;
+    }
+    /* navlinks */
+    .navlinks a{
+     display: none;
+    }
+    .image1{
+        display: flex;
+    }
+    .image{
+       display: flex;
+    }
+    .navbar{
+        width: 100%;
+    }
+    /* firstsection */
+    .firstsection{
+        flex-wrap: wrap;
+    background-image: none;
+    padding-bottom: 0px;
+    margin-left: 0px;
+    }
+    .firstsectionleft{
+        width: 100%;
+        text-align: center;
+    }
+    .firstsectionright{
+        padding-left: 40px;
+    }
+    .firstsection h1{
+        font-size: 36px;
+        width: 100%;
+        line-height: 50px;
+    }
+    .firstsection p{
+        font-size: 24px;
+        line-height: 32px;
+        text-align: center;
+        margin-top: 22px;
+    }
+    .getstarted{
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        margin-top: 22px;
+    }
+    /* footer */
+    footer{
+        margin-left: 0px;
+    }
+    .footer{
+        flex-wrap: wrap;
+        height: 0%;
+    }
+    .footerlogo{
+        margin-top: 22px;
+        width: 84%;
+    }
+    .helpsection{
+        width: 84%;
+    }
+    .exploresection{
+        width: 84%;
+        padding-top: 0px;
+    }
+    .companysection{
+        width: 84%;
+    }
+    .contactussection{
+        width: 84%;
+    }
+    .copyrightsection{
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+    .copyrighttext{
+        padding-top: 0px;
+        padding-left: 0px;
+        text-align: center;
+    }
+    .socialmediaicons{
+        width: 47%;
+        margin-top: 7px;
+    }
+    /* testimonial section */
+    .testimonialsection{
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        background-image: none;
+        margin-left: 0px;
+    }
+    .testimonialsectionheading{
+        padding-bottom: 8px;
+    }
+    .testimonialsectionheading h1{
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        width: 100%;
+        font-size: 42px;
+    }
+    .testimonialsectioncontainer{
+        width: 100%;
+        margin: auto;
+    }
+    .carousel-item img{
+        width: 100% !important;
+    }
+    /* whatmakesusunique */
+    .Whatmakesusuniquesection{
+        margin-left: 0px;
+    }
+    .Whatmakesusuniquecontainer{
+        width: 78%;
+    }
+    .card1{
+        width: 100%;
+    margin-top: 28px;
+    height: 267px;
+    }
+    /* qliquedescription */
+    .qliquedescriptionsection{
+        background-image: none;
+        text-align: center;
+        /* width: 100%; */
+        padding-top: 18px;
+    }
+    .qliquedescriptioncontainer{
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+    .qliquedescriptioncontainerleft{
+        padding-top: 7%;
+    width: 60%;
+    }
+    .qliquedescriptioncontainerright{
+        width: 100%;
+    }
+    /* workingmapheading */
+     .Workingmapheading{
+        padding-bottom: 0px;
+     }
+     .Workingmapcontainer{
+        flex-wrap: wrap;
+    flex-direction: column-reverse;
+    width: 100%;
+     }
+     .Workingmapcontainertext{
+        text-align: center;
+        padding-bottom: 24px;
+     }
+     .Workingmapcontainercenter img{
+        display: none;
+     }
+     .Workingmapcontainerright{
+        width: 100%;
+        text-align: center;
+        padding-left: 0%;
+     }
+     .Workingmapcontainerrighttext{
+        text-align: center;
+     }
+     .Workingmapcontainerleft{
+        padding-right: 0%;
+     }
+     /* Logoscloudsection */
+     .Logoscloudsection {
+        width: 100%;
+        padding-top: 34px;
+    }
+    .Logoscloudcontainer{
+        flex-wrap: wrap;
+    width: 100%;
+    height: 520px;
+    }
+    .Logoscloudhead{
+        width: 100%;
+    text-align: center;
+    font-size: 37px;
+    line-height: 50px;
+    }
+    .Logosclouddescription{
+        text-align: center;
+    width: 100%;
+    }
+    .Logoscloudimage{
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    .Logoscloudimage img{
+        width: 62%;
+    }
+    .Logoscloudtext{
+        width: 96%;
+        margin: auto;
+    } 
+    /* CTAcontainersection */
+    .CTAcontainersection{
+        display: none;
+    }
+}
+
